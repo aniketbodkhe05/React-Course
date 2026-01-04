@@ -1,5 +1,12 @@
+import Chai from "./Chai";
+
 function App() {
-  return <h1>Hello code! | Aniket Bodkhe </h1>;
+  return (
+    <>
+      <Chai />
+      <h1>hello</h1>
+    </>
+  );
 }
 
 export default App;
