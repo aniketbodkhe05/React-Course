@@ -13,7 +13,7 @@ function customRender(reactElement, container) {
 
   for (const prop in reactElement.props) {
     if (prop in reactElement.props) {
-      domElement.setAttribute(prop, reactElement.props[prop]);
+      domElement. createsetAttribute(prop, reactElement.props[prop]);
     }
   }
 
