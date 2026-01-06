@@ -87,7 +87,7 @@ function App() {
             </button>
             <button
               onClick={() => {
-                setColor("cyan");
+                setColor("cyan  ");
               }}
               className="outiline-none px-4 py-1 rounded-full text-white shadow-2xl"
               style={{ backgroundColor: "cyan" }}
