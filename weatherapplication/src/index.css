@@ -42,12 +42,14 @@
   font-weight: 800;
   color: white;
   position: relative;
-  top: -20px;
+  padding: 10px;
 }
 
 .container_img {
-  position: relative;
-  top: -29px;
+  width: 180px;
+  height: 80px;
+  margin-top: 10px;
+  object-fit: contain;
 }
 
 .degree_icon {
@@ -59,6 +61,7 @@
   top: -15px;
   color: white;
   font-size: 18px;
+  padding: 10px;
 }
 
 .input {
@@ -95,6 +98,17 @@ button {
 button:active {
   color: #666;
   box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.error {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background-color: #ffe6e6;
+  color: #d8000c;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .form {
