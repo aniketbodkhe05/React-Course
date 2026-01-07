@@ -19,6 +19,16 @@ function App() {
     for (let i = 0; i < length; i++) {
       const randomIndex = Math.floor(Math.random() * chars.length + 1);
       pass += chars.charAt(randomIndex);
+
+      if (
+        pass.includes("abcdeABCDE") &&
+        pass.includes("12345") &&
+        pass.includes("!@#$%")
+      ) {
+        console.log("Password is Strong Go ahead");
+      } else {
+        console.log("password is not correct");
+      }
     }
 
     setPassword(pass);
@@ -26,7 +36,7 @@ function App() {
 
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0, 99);
+    passwordRef.current?.setSelectionRange(0, 6);
     window.navigator.clipboard.writeText(password);
   }, [password]);
 
