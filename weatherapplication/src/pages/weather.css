@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  /* background: #0059FF; */
 }
 
 body {
@@ -29,7 +28,6 @@ body {
 .container {
   background: #edf0f6;
   background: linear-gradient(354deg, #137df5 0%, #14b1f8 100%);
-  /* padding: 30px 120px; */
   width: 320px;
   height: 600px;
   position: absolute;
@@ -87,7 +85,6 @@ body {
   padding: 1rem;
   border-radius: 0px 0px 0px 15px;
   background: #e8e8e8;
-  /* box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff; */
   transition: 0.3s;
   position: relative;
   top: -2px;
@@ -100,14 +97,10 @@ body {
   transition: 0.3s;
 }
 
-/* button */
-
 button {
   color: #090909;
   padding: 0.7em 0.7em;
   font-size: 18px;
-  /* border-radius: 0.5em; */
-  /* background: #e8e8e8; */
   cursor: pointer;
   border: 1px solid #e8e8e8;
   transition: all 0.3s;

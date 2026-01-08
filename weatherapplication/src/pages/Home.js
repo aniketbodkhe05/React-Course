@@ -14,7 +14,7 @@ function Home() {
         <div className="card">
           <h1 className="title">Weather Forecast</h1>
           <p className="subtitle">
-            Get real-time weather updates for any city in the world
+            Get real-time weather updates for any ci ty in the world
           </p>
 
           <button className="start_btn" onClick={() => navigate("/weather")}>
